@@ -1,0 +1,53 @@
+img{
+    max-width: 10em;
+    max-height: 20em;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+thead{
+    background-color: pink;
+    padding: 10px;
+}
+
+table, td, th, tr {
+    column-width: 50px;
+    text-align: center;
+  }
+
+.container{
+    /* border: 1px dashed pink; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blanchedalmond; */
+    
+    
+}
+
+.groceries{
+    min-height: 100vh;
+}
+
+.groceries h1{
+    font-size: 2.5 rem;
+    margin-top: 1em;
+}
+
+.groceries i{
+    font-size: 2re;
+    color: pink;
+}
+
+
+#allItems{
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
